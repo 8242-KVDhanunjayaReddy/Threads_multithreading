@@ -12,7 +12,7 @@ public class CountDownLatchDemo {
         }
 
         try {
-            
+
             latch.await();
             System.out.println("All workers have finished their tasks. Main thread proceeding.");
         } catch (InterruptedException e) {
